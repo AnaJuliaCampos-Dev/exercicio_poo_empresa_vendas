@@ -15,7 +15,7 @@ public class App {
         funcionario.add(Daila);
         funcionario.add(Estavão);
 
-        System.out.println("\n_________________________________________________________\n");
+        System.out.println("\n---------------------------------------------- DADOS DOS FUNCIONÁRIOS --------------------------------------------------------\n");
 
         for (funcionario f : funcionario) {
             System.out.println("Nome: " + f.getNome() + "  || Tipo: " + f.getClass().getSimpleName() + "  || Salário: " + f.calcularSalario());
